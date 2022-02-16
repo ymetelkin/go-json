@@ -1,0 +1,2859 @@
+{
+    "took": 479,
+    "timed_out": false,
+    "_shards": {
+        "total": 12,
+        "successful": 12,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": 38930861,
+        "max_score": null,
+        "hits": [
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "a3a1d484c6564498a48f9b25ba90fa74",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "a3a1d484c6564498a48f9b25ba90fa74",
+                    "recordid": "425d88105f4f4db6b4a192e8f17c38dc",
+                    "compositeid": "6ecc952e4ff44c5a96800dafd433a8d4",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "376861848531",
+                    "referenceid": "20080301043",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301043",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "Ohio Primary",
+                    "headline": "This voter, Ellie Skoutas (SKOO'-tahs), who runs a diner, says she's not sure which candidate would be best for the economy. (note length of cut)",
+                    "bylines": [
+                        {
+                            "by": "Ellie Skoutas (SKOO'-tahs), diner owner, in AP interview",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "CLEVELAND",
+                    "copyrightdate": 2008,
+                    "outcue": "the fence",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "043",
+                        "name": "Political News"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Subject",
+                            "version": "7165"
+                        },
+                        {
+                            "name": "AP Geography",
+                            "version": "7059"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "p",
+                            "name": "Political News"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "86aad5207dac100488ecba7fa5283c3e",
+                            "name": "Government and Politics",
+                            "creator": "Editorial",
+                            "editorial_subject": "Government and Politics"
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "4f7e0448857510048d0aff2260dd383e",
+                            "name": "Economy",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "c8e409f8858510048872ff2260dd383e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "c8e409f8858510048872ff2260dd383e",
+                            "name": "Business",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        }
+                    ],
+                    "places": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "dcb000c082c610048843df092526b43e",
+                            "name": "Ohio",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "661e48387d5b10048291c076b8e3055c"
+                            ],
+                            "locationtype": {
+                                "code": "0ae5eb8e00e04295a4fc209c94bfe6ef",
+                                "name": "State"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -83.00018,
+                                    40.25034
+                                ]
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661e48387d5b10048291c076b8e3055c",
+                            "name": "United States",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "661850e07d5b100481f7c076b8e3055c"
+                            ],
+                            "locationtype": {
+                                "code": "01f56e0e654841eca2e69bf2cbcc0526",
+                                "name": "Nation"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -98.5,
+                                    39.76
+                                ]
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661850e07d5b100481f7c076b8e3055c",
+                            "name": "North America",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true,
+                            "locationtype": {
+                                "code": "976d112cd5c3497ea180aeecab922c6b",
+                                "name": "Continent"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -100.54688,
+                                    46.07323
+                                ]
+                            }
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "b8bec02043744d03a4029308e05c44d1",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "p",
+                            "slugline": "Ohio Primary",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                39829,
+                                38325,
+                                37590,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>This voter, Ellie Skoutas (SKOO'-tahs), who runs a diner, says she's not sure which candidate would be best for the economy. (note length of cut)</p>",
+                        "words": 25
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "6d93fa14c4a74d3a8195b1edd2468659",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "b8bec02043744d03a4029308e05c44d1",
+                            "binarypath": "None",
+                            "sizeinbytes": 22272,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 1000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MP3",
+                            "originalfilename": "08013043.mp3",
+                            "samplerate": "22050"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "78cfd6ee6ab549558de1be6444bbded9",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "b8bec02043744d03a4029308e05c44d1",
+                            "binarypath": "None",
+                            "sizeinbytes": 22272,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 1000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG",
+                            "originalfilename": "08013043.mpg",
+                            "samplerate": "22050"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "a3a1d484c6564498a48f9b25ba90fa74"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "a613afb4795d431da1c4b0d06eb435d6",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "a613afb4795d431da1c4b0d06eb435d6",
+                    "recordid": "48544994286b4754b7d3f29fa6f2c631",
+                    "compositeid": "48623be0f65f41f18adec2268e1183f1",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "462013036421",
+                    "referenceid": "20080301069",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301069",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "NBA Hornets 110 Jazz 98",
+                    "headline": "Hornets forward David West says his team kept the Jazz off-balance early in the game.",
+                    "bylines": [
+                        {
+                            "by": "David West, Hornets forward with 25 points and 13 rebounds, with reporters",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "NEW ORLEANS",
+                    "copyrightdate": 2008,
+                    "outcue": "for us",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "069",
+                        "name": "Sports Scores"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Subject",
+                            "version": "7165"
+                        },
+                        {
+                            "name": "AP Party",
+                            "version": "7173"
+                        },
+                        {
+                            "name": "AP Organization",
+                            "version": "7148"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "q",
+                            "name": "Sports Scores"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "54df6c687df7100483dedf092526b43e",
+                            "name": "Sports",
+                            "creator": "Editorial",
+                            "editorial_subject": "Sports",
+                            "rels": [
+                                "ancestor"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "6c01c3e08c8010048288a13d9888b73e",
+                            "name": "NBA basketball",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "694bf6988c801004825fa13d9888b73e",
+                                "afef0c0eacff48248f96e33aacd2ca03"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "694bf6988c801004825fa13d9888b73e",
+                            "name": "Professional basketball",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "1dc78fe87f15100488fbdf092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "1dc78fe87f15100488fbdf092526b43e",
+                            "name": "Basketball",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "54df6c687df7100483dedf092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "afef0c0eacff48248f96e33aacd2ca03",
+                            "name": "Men's basketball",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "039d42210158410db74f393deea38897",
+                                "1dc78fe87f15100488fbdf092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "039d42210158410db74f393deea38897",
+                            "name": "Men's sports",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "54df6c687df7100483dedf092526b43e"
+                            ]
+                        }
+                    ],
+                    "persons": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "3e0a29769e804b2b9cb8c910dea0da08",
+                            "name": "David West",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "types": [
+                                "PROFESSIONAL_ATHLETE",
+                                "SPORTS_FIGURE",
+                                "PERSON"
+                            ],
+                            "teams": [
+                                {
+                                    "code": "474005e7261a47bb87f9a3ce89ae395e",
+                                    "name": "Golden State Warriors"
+                                }
+                            ],
+                            "extids": [
+                                "57934"
+                            ]
+                        }
+                    ],
+                    "organizations": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "7d4497db05af4acc8a7d1f9aea1ba5fd",
+                            "name": "Utah Jazz",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "7d1696b15901442b85e4fab8df30df20"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "7d1696b15901442b85e4fab8df30df20",
+                            "name": "NBA Northwest Division",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "53488d7a779e4225939b1a769f124367"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "53488d7a779e4225939b1a769f124367",
+                            "name": "NBA Western Conference",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "94ab45388c0c100489d7b9433d2f4c0e",
+                            "name": "National Basketball Association",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "d4e05fd90e4c414f923ab24211ac0250",
+                            "name": "New Orleans Pelicans",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "4b85b75c61d940759e20adffdea86f71"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "4b85b75c61d940759e20adffdea86f71",
+                            "name": "NBA Southwest Division",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "53488d7a779e4225939b1a769f124367"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "6fcdd63bb1c04c5da9434d061c4a084f",
+                            "name": "Charlotte Hornets",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "df9fc23d862747fe869bedfa03f065f8"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "df9fc23d862747fe869bedfa03f065f8",
+                            "name": "NBA Southeast Division",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "4a653a1806bc49518c5e667120a283e3"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "4a653a1806bc49518c5e667120a283e3",
+                            "name": "NBA Eastern Conference",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "7b62293e1c5d44349d0d97f7d8a75120",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "q",
+                            "slugline": "NBA Hornets 110 Jazz 98",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                38325,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>Hornets forward David West says his team kept the Jazz off-balance early in the game.</p>",
+                        "words": 15
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "464cfc94b5af4dddb1c869fbf9c2c46c",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "7b62293e1c5d44349d0d97f7d8a75120",
+                            "binarypath": "None",
+                            "sizeinbytes": 188160,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 12000,
+                            "format": "MP3",
+                            "originalfilename": "08013069.mp3",
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "e2464b5e54c94ec092ddc51fb1c6ef5f",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "7b62293e1c5d44349d0d97f7d8a75120",
+                            "binarypath": "None",
+                            "sizeinbytes": 188160,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 12000,
+                            "originalfilename": "08013069.mpg",
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "a613afb4795d431da1c4b0d06eb435d6"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "a61f78bf3e70438b948ca42df3e2eff1",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "a61f78bf3e70438b948ca42df3e2eff1",
+                    "recordid": "cec5bcd3559047a2a03d23cc89914d47",
+                    "compositeid": "8e9829ea81924f6882b31ac8d201fa15",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "244602865550",
+                    "referenceid": "20080301011",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301011",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "Oil Prices",
+                    "headline": "Massachusetts Congressman Ed Markey is urging the Senate to pass a bill to encourage alternate forms of energy, like wind and solar power.",
+                    "bylines": [
+                        {
+                            "by": "Rep. Ed Markey, D-Mass., at news conference",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "CAPITOL HILL",
+                    "copyrightdate": 2008,
+                    "outcue": "independent future",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "011",
+                        "name": "Washington News"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Subject",
+                            "version": "7165"
+                        },
+                        {
+                            "name": "AP Party",
+                            "version": "7173"
+                        },
+                        {
+                            "name": "AP Organization",
+                            "version": "7148"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "w",
+                            "name": "Washington News"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "86aad5207dac100488ecba7fa5283c3e",
+                            "name": "Government and Politics",
+                            "creator": "Editorial",
+                            "editorial_subject": "Government and Politics"
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "6c941ab5d13b477fa59c5db524a13799",
+                            "name": "Energy and utilities regulation",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "9201129cad434b09a06d4c6c382bc1c5"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "9201129cad434b09a06d4c6c382bc1c5",
+                            "name": "Industry regulation",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "56b2aea8857510048d19ff2260dd383e",
+                                "523699d088e910048f43f8851349f9bd"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "56b2aea8857510048d19ff2260dd383e",
+                            "name": "Government business and finance",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "c8e409f8858510048872ff2260dd383e",
+                                "86aad5207dac100488ecba7fa5283c3e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "c8e409f8858510048872ff2260dd383e",
+                            "name": "Business",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "86aad5207dac100488ecba7fa5283c3e",
+                            "name": "Government and politics",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "523699d088e910048f43f8851349f9bd",
+                            "name": "Government regulations",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "86aad5207dac100488ecba7fa5283c3e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "86c13f687dac1004898cba7fa5283c3e",
+                            "name": "Legislature",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "86aad5207dac100488ecba7fa5283c3e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "86c1f7007dac10048993ba7fa5283c3e",
+                            "name": "Bills",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "86c1b8807dac10048990ba7fa5283c3e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "86c1b8807dac10048990ba7fa5283c3e",
+                            "name": "Legislation",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "86c13f687dac1004898cba7fa5283c3e"
+                            ]
+                        }
+                    ],
+                    "persons": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "60e26de3c7d6410bb255088b1c6a6abe",
+                            "name": "Edward Markey",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "types": [
+                                "POLITICIAN",
+                                "PERSON"
+                            ],
+                            "associatedstates": [
+                                {
+                                    "code": "bed6942882b310048501df092526b43e",
+                                    "name": "Massachusetts"
+                                }
+                            ]
+                        }
+                    ],
+                    "organizations": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "d4b82a78857310048a38ff2260dd383e",
+                            "name": "United States Senate",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "86b5cdb87dac10048932ba7fa5283c3e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "86b5cdb87dac10048932ba7fa5283c3e",
+                            "name": "United States Congress",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "898f52e08921100480efba0a2b2ca13e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "898f52e08921100480efba0a2b2ca13e",
+                            "name": "United States government",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "da9ec52723be42efb79ac4190074ae81",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "w",
+                            "slugline": "Oil Prices",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                39344,
+                                38325,
+                                37585,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>Massachusetts Congressman Ed Markey is urging the Senate to pass a bill to encourage alternate forms of energy, like wind and solar power.</p>",
+                        "words": 23
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "2627535004614fa29cf59f2b120ccb35",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "da9ec52723be42efb79ac4190074ae81",
+                            "binarypath": "None",
+                            "sizeinbytes": 244224,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "mimetype": "audio/mpeg",
+                            "format": "MP3",
+                            "originalfilename": "08013011.mp3",
+                            "samplerate": "22050"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "66db0f91ef754ce3bc7ff738dd2266bc",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "da9ec52723be42efb79ac4190074ae81",
+                            "binarypath": "None",
+                            "sizeinbytes": 244224,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG",
+                            "originalfilename": "08013011.mpg",
+                            "samplerate": "22050"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "a61f78bf3e70438b948ca42df3e2eff1"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "a659bab7fbbb4441b9eaa1e92cfbe21a",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "a659bab7fbbb4441b9eaa1e92cfbe21a",
+                    "recordid": "b8d8d1d62f7140abbb1ee597b69099f8",
+                    "compositeid": "33795c8269494f5fa201a584f595cb0f",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "300677522710",
+                    "referenceid": "20080301117",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301117",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "Planes Collide",
+                    "headline": "Titusville Fire and Emergency Services spokesman Scott Gaenicke (GEN'-ick-ee) says one plane cartwheeled across the runway and into a grassy median after it struck another plane on the runway.",
+                    "bylines": [
+                        {
+                            "by": "Scott Gaenicke (GEN-ick-ee), spokesman, Titusville Fire and Emergency Services, in AP interview",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "TITUSVILLE, Fla.",
+                    "copyrightdate": 2008,
+                    "outcue": "burning aircraft",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "117",
+                        "name": "General Domestic News"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Subject",
+                            "version": "7165"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "a",
+                            "name": "General Domestic News"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "f25af2d07e4e100484f5df092526b43e",
+                            "name": "General News",
+                            "creator": "Editorial",
+                            "editorial_subject": "General News"
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "41687660882f10048a199528eb155503",
+                            "name": "Plane crashes",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "3c102938882f100489fd9528eb155503"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "3c102938882f100489fd9528eb155503",
+                            "name": "Aviation accidents and incidents",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "e20e7174e0154782b8733d180a799d34"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "e20e7174e0154782b8733d180a799d34",
+                            "name": "Transportation accidents",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "5f7ebcc082b4100485cfdf092526b43e",
+                                "877cb3c0899a10048abbd56c852d093e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "5f7ebcc082b4100485cfdf092526b43e",
+                            "name": "Accidents",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "31711ec0894b10048983ba0a2b2ca13e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "31711ec0894b10048983ba0a2b2ca13e",
+                            "name": "Accidents and disasters",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "f25af2d07e4e100484f5df092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "f25af2d07e4e100484f5df092526b43e",
+                            "name": "General news",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "877cb3c0899a10048abbd56c852d093e",
+                            "name": "Transportation",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "f25af2d07e4e100484f5df092526b43e"
+                            ]
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "67c0e2d37db14e9981177ef749d0f3ab",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "a",
+                            "slugline": "Planes Collide",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                39342,
+                                38325,
+                                37585,
+                                10092,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>Titusville Fire and Emergency Services spokesman Scott Gaenicke (GEN'-ick-ee) says one plane cartwheeled across the runway and into a grassy median after it struck another plane on the runway.</p>",
+                        "words": 29
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "371cda8a30204d8588158f236bf85043",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "67c0e2d37db14e9981177ef749d0f3ab",
+                            "binarypath": "None",
+                            "sizeinbytes": 196992,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 12000,
+                            "format": "MP3",
+                            "originalfilename": "08013117.mp3",
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "3b7a07982aa44b8e9ccb764b2f9ec4e7",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "binarypath": "None",
+                            "arrivedinfilingid": "67c0e2d37db14e9981177ef749d0f3ab",
+                            "sizeinbytes": 196992,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 12000,
+                            "format": "MPEG",
+                            "originalfilename": "08013117.mpg",
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "a659bab7fbbb4441b9eaa1e92cfbe21a"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "a706a66993eb47ff9bbc0b0cfaeb404b",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "a706a66993eb47ff9bbc0b0cfaeb404b",
+                    "recordid": "9712ea4527ad4a90a6629f99828292f9",
+                    "compositeid": "71919985706441559c1e0202ca0b5100",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "587823250316",
+                    "referenceid": "20080301017",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301017",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "Frozen Fish Recall",
+                    "headline": "Tracey Rowan (ROH'-ihn), who says she found pills in her fish, says she and her daughter spit out the fish when they realized something was wrong.",
+                    "bylines": [
+                        {
+                            "by": "Tracey Rowan (ROH'-ihn), woman who says she found pills in fish, in AP interview",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "New Freedom, Pa.",
+                    "copyrightdate": 2008,
+                    "outcue": "ingest anything",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "017",
+                        "name": "General Domestic News"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Subject",
+                            "version": "7165"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "a",
+                            "name": "General Domestic News"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "f25af2d07e4e100484f5df092526b43e",
+                            "name": "General News",
+                            "creator": "Editorial",
+                            "editorial_subject": "General News"
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "b6c78fb613f14b1d975cab92c843b93f",
+                            "name": "Food recalls",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "5238439888e910048f61f8851349f9bd",
+                                "2ad5f8487e8710048bf98087fc32d30c"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "5238439888e910048f61f8851349f9bd",
+                            "name": "Product recalls",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "5238439888e910048f62f8851349f9bd"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "5238439888e910048f62f8851349f9bd",
+                            "name": "Product safety",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "52352e8888e910048f20f8851349f9bd"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "52352e8888e910048f20f8851349f9bd",
+                            "name": "Products and services",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "4d3302d8857510048d06ff2260dd383e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "4d3302d8857510048d06ff2260dd383e",
+                            "name": "Corporate news",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "c8e409f8858510048872ff2260dd383e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "c8e409f8858510048872ff2260dd383e",
+                            "name": "Business",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "2ad5f8487e8710048bf98087fc32d30c",
+                            "name": "Food safety",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "e57b6c907e3810048ae4df092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "e57b6c907e3810048ae4df092526b43e",
+                            "name": "Public health",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "cc7a76087e4e10048482df092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "cc7a76087e4e10048482df092526b43e",
+                            "name": "Health",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "c10718041c8340ebbf3ef074d1d8e050",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "a",
+                            "slugline": "Frozen Fish Recall",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                39342,
+                                38325,
+                                37585,
+                                10092,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>Tracey Rowan (ROH'-ihn), who says she found pills in her fish, says she and her daughter spit out the fish when they realized something was wrong.</p>",
+                        "words": 26
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "89cc051a6ee14c6bbc506e2f5a9d2bd8",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "c10718041c8340ebbf3ef074d1d8e050",
+                            "binarypath": "None",
+                            "sizeinbytes": 211200,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 13000,
+                            "format": "MP3",
+                            "originalfilename": "08013017.mp3",
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "5ba0f0ed25d74e8091fe71887f41fdd7",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "c10718041c8340ebbf3ef074d1d8e050",
+                            "binarypath": "None",
+                            "sizeinbytes": 211200,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 13000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG",
+                            "originalfilename": "08013017.mpg",
+                            "samplerate": "22050"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "a706a66993eb47ff9bbc0b0cfaeb404b"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "a89e76c860554125a37460dbde0defb6",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "a89e76c860554125a37460dbde0defb6",
+                    "recordid": "c90570bb8f2b46cab9e3af6acfd02bfc",
+                    "compositeid": "f5e2805c04e34e08bbf70995ff4912e1",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "262378230165",
+                    "referenceid": "20080301106",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301106",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "Britain-Prince Harry",
+                    "headline": "Prince Charles says he's found it hard not to talk about his son Harry's deployment to Afghanistan.",
+                    "bylines": [
+                        {
+                            "by": "Prince Charles, with reporters",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "RAF BRIZE NORTON AIR, England",
+                    "copyrightdate": 2008,
+                    "outcue": "the world",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "106",
+                        "name": "International News"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Geography",
+                            "version": "7059"
+                        },
+                        {
+                            "name": "AP Party",
+                            "version": "7173"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "i",
+                            "name": "International News"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "f25af2d07e4e100484f5df092526b43e",
+                            "name": "General News",
+                            "creator": "Editorial",
+                            "editorial_subject": "General News"
+                        }
+                    ],
+                    "persons": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "f8955706b58c4b71901d46201750aa48",
+                            "name": "Prince Charles",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "types": [
+                                "GOVERNMENT_FIGURE",
+                                "PERSON",
+                                "ROYALTY"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "1b145ec16d324e31a17d0741aa228c12",
+                            "name": "Prince Harry",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "types": [
+                                "GOVERNMENT_FIGURE",
+                                "PERSON",
+                                "ROYALTY"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "e62520dddc7348d2be9f152ee61b8002",
+                            "name": "Prince",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "types": [
+                                "PROFESSIONAL_ATHLETE",
+                                "SPORTS_FIGURE",
+                                "PERSON"
+                            ],
+                            "teams": [
+                                {
+                                    "code": "2739c39f9f524f2fa0d4f75ebc3851c4",
+                                    "name": "Amiens SC"
+                                }
+                            ]
+                        }
+                    ],
+                    "places": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "66219fb07d5b100482e2c076b8e3055c",
+                            "name": "United Kingdom",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "6618c9f87d5b10048202c076b8e3055c"
+                            ],
+                            "locationtype": {
+                                "code": "01f56e0e654841eca2e69bf2cbcc0526",
+                                "name": "Nation"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -4,
+                                    54
+                                ]
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "6618c9f87d5b10048202c076b8e3055c",
+                            "name": "Western Europe",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "661850e07d5b100481f4c076b8e3055c"
+                            ],
+                            "locationtype": {
+                                "code": "424cdfcd69d64fa6869055f7ebf10be4",
+                                "name": "World region"
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661850e07d5b100481f4c076b8e3055c",
+                            "name": "Europe",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true,
+                            "locationtype": {
+                                "code": "976d112cd5c3497ea180aeecab922c6b",
+                                "name": "Continent"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    9.14062,
+                                    48.69096
+                                ]
+                            }
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "695f27d412164252af81192814eb080b",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "i",
+                            "slugline": "Britain-Prince Harry",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                39333,
+                                38325,
+                                37588,
+                                10135,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>Prince Charles says he's found it hard not to talk about his son Harry's deployment to Afghanistan.</p>",
+                        "words": 17
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "aadae80b26b448dead98e3b90f26ceed",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "695f27d412164252af81192814eb080b",
+                            "binarypath": "None",
+                            "sizeinbytes": 155136,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 10000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MP3",
+                            "originalfilename": "08013106.mp3",
+                            "samplerate": "22050"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "c4747a74230e4a2fbf9b23eb46be8f40",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "695f27d412164252af81192814eb080b",
+                            "binarypath": "None",
+                            "sizeinbytes": 155136,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 10000,
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG",
+                            "originalfilename": "08013106.mpg"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "a89e76c860554125a37460dbde0defb6"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "abbbdbcc65ca4e4bb1280f1549af152f",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "abbbdbcc65ca4e4bb1280f1549af152f",
+                    "recordid": "64be31c43d5a4db49993c6d17307b865",
+                    "compositeid": "01c95a3674ca4ffe805a24f0f3052b75",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "135701504250",
+                    "referenceid": "20080301243",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301243",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "Israel-Palestinians",
+                    "headline": "AP correspondent Amy Teibel (TYE'-buhl) reports that each side blames the other.",
+                    "bylines": [
+                        {
+                            "by": "Amy Teibel (TYE'-buhl), AP correspondent",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "JERUSALEM",
+                    "copyrightdate": 2008,
+                    "outcue": "the fatalities",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "dbf46e808fe3100487eaa55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Question and Answer Session"
+                    },
+                    "fixture": {
+                        "code": "243",
+                        "name": "International News"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Geography",
+                            "version": "7059"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "i",
+                            "name": "International News"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "f25af2d07e4e100484f5df092526b43e",
+                            "name": "General News",
+                            "creator": "Editorial",
+                            "editorial_subject": "General News"
+                        }
+                    ],
+                    "places": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661dcb387d5b1004827fc076b8e3055c",
+                            "name": "Israel",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "661850e07d5b100481f6c076b8e3055c"
+                            ],
+                            "locationtype": {
+                                "code": "01f56e0e654841eca2e69bf2cbcc0526",
+                                "name": "Nation"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    34.75,
+                                    31.5
+                                ]
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661850e07d5b100481f6c076b8e3055c",
+                            "name": "Middle East",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true,
+                            "locationtype": {
+                                "code": "424cdfcd69d64fa6869055f7ebf10be4",
+                                "name": "World region"
+                            }
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "d7b420c9a7bd46aa9f4de8a43d82090b",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "i",
+                            "slugline": "Israel-Palestinians",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                39333,
+                                38325,
+                                37588,
+                                10135,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>AP correspondent Amy Teibel (TYE'-buhl) reports that each side blames the other.</p>",
+                        "words": 12
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "550df3ce4df4487c85ab56fecd7cf7ff",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "d7b420c9a7bd46aa9f4de8a43d82090b",
+                            "binarypath": "None",
+                            "sizeinbytes": 253824,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 16000,
+                            "originalfilename": "08013243.mp3",
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg",
+                            "format": "MP3"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "623f514b81924c728118e0892e6078c2",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "d7b420c9a7bd46aa9f4de8a43d82090b",
+                            "binarypath": "None",
+                            "sizeinbytes": 253824,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 16000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG",
+                            "originalfilename": "08013243.mpg",
+                            "samplerate": "22050"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "abbbdbcc65ca4e4bb1280f1549af152f"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "ade77cbf3048407f816873c1b372e124",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "ade77cbf3048407f816873c1b372e124",
+                    "recordid": "93f2b006b572493980382d80e16129c2",
+                    "compositeid": "c3cf7d3baaaa497abcdd3ff318aac180",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "638572078744",
+                    "referenceid": "20080301078",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301078",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "NHL Sharks 3 Red Wings 2",
+                    "headline": "Red Wings coach Mike Babcock says his team has to get back to its winning ways after dropping 10 of 11.",
+                    "bylines": [
+                        {
+                            "by": "Mike Babcock, Red Wings coach, with reporters",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "DETROIT",
+                    "copyrightdate": 2008,
+                    "outcue": "with confidence",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "078",
+                        "name": "Sports Scores"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Subject",
+                            "version": "7165"
+                        },
+                        {
+                            "name": "AP Party",
+                            "version": "7173"
+                        },
+                        {
+                            "name": "AP Organization",
+                            "version": "7148"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "q",
+                            "name": "Sports Scores"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "54df6c687df7100483dedf092526b43e",
+                            "name": "Sports",
+                            "creator": "Editorial",
+                            "editorial_subject": "Sports",
+                            "rels": [
+                                "direct"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "20dfcc087e4e10048925d0913b2d075c",
+                            "name": "NHL hockey",
+                            "creator": "RTE",
+                            "rels": [
+                                "inferred"
+                            ],
+                            "parentids": [
+                                "20de22407e4e100488fbd0913b2d075c",
+                                "7e961e9fc1ad476891de6cbf30f1122b"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "20de22407e4e100488fbd0913b2d075c",
+                            "name": "Professional hockey",
+                            "creator": "RTE",
+                            "rels": [
+                                "inferred"
+                            ],
+                            "parentids": [
+                                "20da8c487e4e100488b4d0913b2d075c"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "20da8c487e4e100488b4d0913b2d075c",
+                            "name": "Hockey",
+                            "creator": "RTE",
+                            "rels": [
+                                "inferred"
+                            ],
+                            "parentids": [
+                                "54df6c687df7100483dedf092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "7e961e9fc1ad476891de6cbf30f1122b",
+                            "name": "Men's hockey",
+                            "creator": "RTE",
+                            "rels": [
+                                "inferred"
+                            ],
+                            "parentids": [
+                                "20da8c487e4e100488b4d0913b2d075c",
+                                "039d42210158410db74f393deea38897"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "039d42210158410db74f393deea38897",
+                            "name": "Men's sports",
+                            "creator": "RTE",
+                            "rels": [
+                                "inferred"
+                            ],
+                            "parentids": [
+                                "54df6c687df7100483dedf092526b43e"
+                            ]
+                        }
+                    ],
+                    "persons": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "19ba6f2506544586ab160acc85a6a924",
+                            "name": "Mike Babcock",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "types": [
+                                "COACH",
+                                "PERSON"
+                            ],
+                            "teams": [
+                                {
+                                    "code": "7f7cc965f0b44e4fa5388d57596f16c0",
+                                    "name": "Toronto Maple Leafs"
+                                }
+                            ],
+                            "extids": [
+                                "C287442"
+                            ]
+                        }
+                    ],
+                    "organizations": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "551c0126a85e4e028b17900af83138e1",
+                            "name": "Detroit Red Wings",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "b6707c05caa8410f88a95d75b63a5912"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "b6707c05caa8410f88a95d75b63a5912",
+                            "name": "NHL Atlantic Division",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "ac0c9149bfd24cfc89d08f3afdcce20d"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "ac0c9149bfd24cfc89d08f3afdcce20d",
+                            "name": "NHL Eastern Conference",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "94ab93588c0c100489d7b9433d2f4c0e",
+                            "name": "National Hockey League",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "8f2bab31942842c098a8aef62922d98e",
+                            "name": "San Jose Sharks",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "2d591dde6dfd44d599bb84276f960311"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "2d591dde6dfd44d599bb84276f960311",
+                            "name": "NHL Pacific Division",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "c8d79c2be9f4439787a12873ace54f6c"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "c8d79c2be9f4439787a12873ace54f6c",
+                            "name": "NHL Western Conference",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "df1d963fb15f4ef28478dcb1ae604552",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "q",
+                            "slugline": "NHL Sharks 3 Red Wings 2",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                38325,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>Red Wings coach Mike Babcock says his team has to get back to its winning ways after dropping 10 of 11.</p>",
+                        "words": 21
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "2b7aace4cabe4cf7b885f5bc28ee404f",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "df1d963fb15f4ef28478dcb1ae604552",
+                            "binarypath": "None",
+                            "sizeinbytes": 256128,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 16000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MP3",
+                            "originalfilename": "08013078.mp3",
+                            "samplerate": "22050"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "d2d02c5226d444b2aca05b1b092e8bce",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "df1d963fb15f4ef28478dcb1ae604552",
+                            "binarypath": "None",
+                            "sizeinbytes": 256128,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 16000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG",
+                            "originalfilename": "08013078.mpg",
+                            "samplerate": "22050"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "ade77cbf3048407f816873c1b372e124"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "b086b1bdbbce4bfdac8b50b0899f88af",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "b086b1bdbbce4bfdac8b50b0899f88af",
+                    "recordid": "640ba0036c894429b9caeaa75421ccd0",
+                    "compositeid": "1e246ced50be4d4cb88aa788801901a1",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "809104449603",
+                    "referenceid": "20080301042",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301042",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "Ohio Primary",
+                    "headline": "This diner owner in Cleveland, Ellie Skoutas (SKOO'-tahs), says the economy has gone downhill.",
+                    "bylines": [
+                        {
+                            "by": "Ellie Skoutas (SKOO'-tahs), diner owner, in AP interview",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "CLEVELAND",
+                    "copyrightdate": 2008,
+                    "outcue": "barely enough",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "042",
+                        "name": "Political News"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Subject",
+                            "version": "7165"
+                        },
+                        {
+                            "name": "AP Geography",
+                            "version": "7059"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "p",
+                            "name": "Political News"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "86aad5207dac100488ecba7fa5283c3e",
+                            "name": "Government and Politics",
+                            "creator": "Editorial",
+                            "editorial_subject": "Government and Politics"
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "4f7e0448857510048d0aff2260dd383e",
+                            "name": "Economy",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "c8e409f8858510048872ff2260dd383e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "c8e409f8858510048872ff2260dd383e",
+                            "name": "Business",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "fa27fee08984100484f2bc885dbc3010",
+                            "name": "Restaurants",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "002189a084fe1004882b91f43387513e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "002189a084fe1004882b91f43387513e",
+                            "name": "Food and drink",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "3e37e4b87df7100483d5df092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "3e37e4b87df7100483d5df092526b43e",
+                            "name": "Lifestyle",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        }
+                    ],
+                    "places": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "dcb000c082c610048843df092526b43e",
+                            "name": "Ohio",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "661e48387d5b10048291c076b8e3055c"
+                            ],
+                            "locationtype": {
+                                "code": "0ae5eb8e00e04295a4fc209c94bfe6ef",
+                                "name": "State"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -83.00018,
+                                    40.25034
+                                ]
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661e48387d5b10048291c076b8e3055c",
+                            "name": "United States",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "661850e07d5b100481f7c076b8e3055c"
+                            ],
+                            "locationtype": {
+                                "code": "01f56e0e654841eca2e69bf2cbcc0526",
+                                "name": "Nation"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -98.5,
+                                    39.76
+                                ]
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661850e07d5b100481f7c076b8e3055c",
+                            "name": "North America",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true,
+                            "locationtype": {
+                                "code": "976d112cd5c3497ea180aeecab922c6b",
+                                "name": "Continent"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -100.54688,
+                                    46.07323
+                                ]
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "e3d09e5082c610048854df092526b43e",
+                            "name": "Cleveland",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "dcb000c082c610048843df092526b43e"
+                            ],
+                            "locationtype": {
+                                "code": "9d26a20b35f0484a891740f8189d4c7b",
+                                "name": "City"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    -81.69541,
+                                    41.4995
+                                ]
+                            }
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "b2a1ca663e0c49e1a8a8e19501d3cbcd",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "p",
+                            "slugline": "Ohio Primary",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                39829,
+                                38325,
+                                37590,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>This diner owner in Cleveland, Ellie Skoutas (SKOO'-tahs), says the economy has gone downhill.</p>",
+                        "words": 14
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "dcc3b52b73404d8fad3cb9cbe9a7b0e9",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "binarypath": "None",
+                            "arrivedinfilingid": "b2a1ca663e0c49e1a8a8e19501d3cbcd",
+                            "sizeinbytes": 143616,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 9000,
+                            "originalfilename": "08013042.mp3",
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg",
+                            "format": "MP3"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "a1253d95c1594da1b18c2a12788d2484",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "b2a1ca663e0c49e1a8a8e19501d3cbcd",
+                            "binarypath": "None",
+                            "sizeinbytes": 143616,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 9000,
+                            "samplerate": "22050",
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG",
+                            "originalfilename": "08013042.mpg"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "b086b1bdbbce4bfdac8b50b0899f88af"
+                ]
+            },
+            {
+                "_index": "appl-nontext-archive",
+                "_type": "doc",
+                "_id": "b30982a912cb4abfa3e5037b72d46814",
+                "_score": null,
+                "_source": {
+                    "representationversion": "1.0",
+                    "representationtype": "full",
+                    "itemid": "b30982a912cb4abfa3e5037b72d46814",
+                    "recordid": "3e9f93cbebdb45f0a55712a36f5127ae",
+                    "compositeid": "0719446100e3458da7ddc591415a770c",
+                    "compositiontype": "StandardOnlineAudio",
+                    "type": "audio",
+                    "priority": 4,
+                    "editorialpriority": "r",
+                    "language": "en",
+                    "recordsequencenumber": 0,
+                    "friendlykey": "68098806308",
+                    "referenceid": "20080301206",
+                    "recordtype": "Change",
+                    "filingtype": "OnlineAudio",
+                    "arrivaldatetime": "2008-03-01T00:00:00Z",
+                    "firstcreated": "2008-03-01T00:00:00Z",
+                    "firstcreator": {
+                        "year": 2008,
+                        "month": 3,
+                        "day": 1,
+                        "time": "00:00:00"
+                    },
+                    "pubstatus": "usable",
+                    "editorialid": "20080301206",
+                    "itemstartdatetime": "2008-03-01T00:00:00Z",
+                    "itemstartdatetimeactual": "2008-03-01T00:00:00Z",
+                    "signals": [
+                        "newscontent"
+                    ],
+                    "title": "UN Israel-Palestinians",
+                    "headline": "U.N. Secretary-General Ban Ki-moon (bahn kee moon) calls Israel's rocket attacks against Palestinians an act of terrorism.",
+                    "bylines": [
+                        {
+                            "by": "Ban Ki-moon (bahn kee moon), U.N. Secretary-General, with reporters",
+                            "title": "Speaker"
+                        }
+                    ],
+                    "dateline": "UNITED NATIONS",
+                    "copyrightdate": 2008,
+                    "outcue": "immediate cessation",
+                    "provider": {
+                        "type": "AP",
+                        "name": "AP"
+                    },
+                    "sources": [
+                        {
+                            "type": "AP",
+                            "name": "AP"
+                        }
+                    ],
+                    "transmissionsources": [
+                        "EapAudio",
+                        "NotMemberFeed",
+                        "SoundBankMigration"
+                    ],
+                    "itemcontenttype": {
+                        "code": "d67953308fe3100487d5a55c96277d3e",
+                        "creator": "Editorial",
+                        "name": "Actuality"
+                    },
+                    "fixture": {
+                        "code": "206",
+                        "name": "International News"
+                    },
+                    "generators": [
+                        {
+                            "name": "AP Subject",
+                            "version": "7165"
+                        },
+                        {
+                            "name": "AP Party",
+                            "version": "7173"
+                        },
+                        {
+                            "name": "AP Organization",
+                            "version": "7148"
+                        },
+                        {
+                            "name": "AP Geography",
+                            "version": "7059"
+                        }
+                    ],
+                    "categories": [
+                        {
+                            "code": "i",
+                            "name": "International News"
+                        }
+                    ],
+                    "subjects": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "f25af2d07e4e100484f5df092526b43e",
+                            "name": "General News",
+                            "creator": "Editorial",
+                            "editorial_subject": "General News"
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "d7f9e33889701004837fd56c852d093e",
+                            "name": "Terrorist attacks",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "98c3b8c5d6af41c296a3ca1e4c0977ed"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "98c3b8c5d6af41c296a3ca1e4c0977ed",
+                            "name": "Terrorism",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "7cf243908830100481e9ae2ac3a6923e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "7cf243908830100481e9ae2ac3a6923e",
+                            "name": "War and unrest",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "parentids": [
+                                "f25af2d07e4e100484f5df092526b43e"
+                            ]
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "f25af2d07e4e100484f5df092526b43e",
+                            "name": "General news",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true
+                        }
+                    ],
+                    "persons": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "778c893c8e64437d85e846ecefe67d50",
+                            "name": "Ban Ki-Moon",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "types": [
+                                "GOVERNMENT_FIGURE",
+                                "PERSON"
+                            ]
+                        }
+                    ],
+                    "organizations": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "54fa9358892310048056fb7860a2fc03",
+                            "name": "United Nations",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "topparent": true
+                        }
+                    ],
+                    "places": [
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661dcb387d5b1004827fc076b8e3055c",
+                            "name": "Israel",
+                            "creator": "Teragram",
+                            "rels": [
+                                "direct"
+                            ],
+                            "parentids": [
+                                "661850e07d5b100481f6c076b8e3055c"
+                            ],
+                            "locationtype": {
+                                "code": "01f56e0e654841eca2e69bf2cbcc0526",
+                                "name": "Nation"
+                            },
+                            "geometry_geojson": {
+                                "type": "Point",
+                                "coordinates": [
+                                    34.75,
+                                    31.5
+                                ]
+                            }
+                        },
+                        {
+                            "scheme": "http://cv.ap.org/id/",
+                            "code": "661850e07d5b100481f6c076b8e3055c",
+                            "name": "Middle East",
+                            "creator": "Teragram",
+                            "rels": [
+                                "ancestor"
+                            ],
+                            "topparent": true,
+                            "locationtype": {
+                                "code": "424cdfcd69d64fa6869055f7ebf10be4",
+                                "name": "World region"
+                            }
+                        }
+                    ],
+                    "filings": [
+                        {
+                            "filingid": "ec29e01e1d4b4c11805db7c4dc6f32b9",
+                            "filingarrivaldatetime": "2017-10-21T00:00:00Z",
+                            "transmissioncontent": "All",
+                            "filingcategory": "i",
+                            "slugline": "UN Israel-Palestinians",
+                            "products": [
+                                100102,
+                                45486,
+                                45151,
+                                43848,
+                                39333,
+                                38325,
+                                37588,
+                                10135,
+                                5,
+                                1
+                            ]
+                        }
+                    ],
+                    "caption": {
+                        "nitf": "<p>U.N. Secretary-General Ban Ki-moon (bahn kee moon) calls Israel's rocket attacks against Palestinians an act of terrorism.</p>",
+                        "words": 17
+                    },
+                    "renditions": [
+                        {
+                            "title": "Full Resolution (MP3)",
+                            "rel": "Main",
+                            "code": "f70480838758458599ba9896ea4fe3b0",
+                            "type": "audio",
+                            "fileextension": "mp3",
+                            "arrivedinfilingid": "ec29e01e1d4b4c11805db7c4dc6f32b9",
+                            "binarypath": "None",
+                            "sizeinbytes": 208896,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 13000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MP3",
+                            "originalfilename": "08013206.mp3",
+                            "samplerate": "22050"
+                        },
+                        {
+                            "title": "Full Resolution (MPG)",
+                            "rel": "Main",
+                            "code": "a53b5a687b0c4b41bc35f05c762d121b",
+                            "type": "audio",
+                            "fileextension": "mpg",
+                            "arrivedinfilingid": "ec29e01e1d4b4c11805db7c4dc6f32b9",
+                            "binarypath": "None",
+                            "sizeinbytes": 208896,
+                            "resolution": 16,
+                            "resolutionunits": "bits",
+                            "totalduration": 13000,
+                            "mimetype": "audio/mpeg",
+                            "format": "MPEG",
+                            "originalfilename": "08013206.mpg",
+                            "samplerate": "22050"
+                        }
+                    ]
+                },
+                "sort": [
+                    1204329600000,
+                    "b30982a912cb4abfa3e5037b72d46814"
+                ]
+            }
+        ]
+    }
+}

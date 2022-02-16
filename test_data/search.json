@@ -1,0 +1,185 @@
+{
+    "query": {
+        "function_score": {
+            "query": {
+                "bool": {
+                    "must": {
+                        "multi_match": {
+                            "query": "messi barcelona",
+                            "fields": [
+                                "alertcategories^7",
+                                "caption.nitf^20",
+                                "categories.name^7",
+                                "companies.industries.name",
+                                "companies.name^30",
+                                "companies.symbols.exchange",
+                                "companies.symbols.ticker",
+                                "dateline^10",
+                                "datelinelocation.city^20",
+                                "datelinelocation.countryareaname^20",
+                                "datelinelocation.countryname^20",
+                                "events.name^30",
+                                "filings.filingsubjects^7",
+                                "filings.slugline^50",
+                                "filings.transmissionreference",
+                                "fixture.name",
+                                "friendlykey",
+                                "headline^50",
+                                "itemcontenttype.name",
+                                "itemid",
+                                "keywordlines^7",
+                                "locationline^7",
+                                "main.nitf^20",
+                                "organizations.name^30",
+                                "overlines^7",
+                                "persons.associatedevents.name",
+                                "persons.name^30",
+                                "persons.teams.name",
+                                "persons.types",
+                                "places.name^30",
+                                "recordid",
+                                "script.nitf^20",
+                                "shotlist.nitf^20",
+                                "subjects.name^30",
+                                "suppcategories.name",
+                                "title^50",
+                                "editorialid",
+                                "filings.foreignkeys.storyid"
+                            ],
+                            "type": "most_fields"
+                        }
+                    },
+                    "filter": [
+                        {
+                            "term": {
+                                "pubstatus": "usable"
+                            }
+                        },
+                        {
+                            "bool": {
+                                "should": [
+                                    {
+                                        "bool": {
+                                            "must_not": {
+                                                "exists": {
+                                                    "field": "itemexpiredatetime"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "itemexpiredatetime": {
+                                                "gte": "now"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "functions": [
+                {
+                    "gauss": {
+                        "arrivaldatetime": {
+                            "origin": "now",
+                            "scale": "5d"
+                        }
+                    }
+                },
+                {
+                    "filter": {
+                        "term": {
+                            "signals": "halo"
+                        }
+                    },
+                    "weight": 1.2
+                },
+                {
+                    "filter": {
+                        "exists": {
+                            "field": "associations.itemid"
+                        }
+                    },
+                    "weight": 1.2
+                },
+                {
+                    "filter": {
+                        "bool": {
+                            "should": [
+                                {
+                                    "terms": {
+                                        "filings.filingsource": [
+                                            "agate",
+                                            "dsr",
+                                            "hdgen"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "terms": {
+                                        "filings.filingcategory": [
+                                            "j",
+                                            "o",
+                                            "q",
+                                            "v",
+                                            "z"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "terms": {
+                                        "itemcontenttype": [
+                                            "advisory",
+                                            "agate",
+                                            "internal newswire",
+                                            "extendedheadlinepackage",
+                                            "pressrelease",
+                                            "press release",
+                                            "headlinepackage",
+                                            "sidebar",
+                                            "voicer",
+                                            "lottery results",
+                                            "weather forecast",
+                                            "newsbrief",
+                                            "daybook",
+                                            "raw sound"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "terms": {
+                                        "filings.format": [
+                                            "at",
+                                            "ax"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "terms": {
+                                        "filings.selector": [
+                                            "apr--",
+                                            "aphdp"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "terms": {
+                                        "filings.slugline": [
+                                            "usat states pages",
+                                            "apnewsalert",
+                                            "sportswatch"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "weight": 0.1
+                }
+            ]
+        }
+    }
+}

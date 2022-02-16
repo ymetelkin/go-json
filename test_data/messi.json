@@ -1,0 +1,1190 @@
+{
+    "representationversion": "1.0",
+    "representationtype": "full",
+    "itemid": "bf33920a9fb2d8d8fb236daaf747d42e",
+    "recordid": "00664327869980b68077c3edfe0de27c",
+    "compositeid": "00000000000000000000000000000000",
+    "compositiontype": "StandardBroadcastVideo",
+    "type": "video",
+    "priority": 4,
+    "editorialpriority": "r",
+    "language": "en",
+    "recordsequencenumber": 0,
+    "friendlykey": "8691690354",
+    "signals": [
+        "NewsroomReady",
+        "DigitalCleared",
+        "SocialCleared",
+        "newscontent"
+    ],
+    "recordtype": "Change",
+    "filingtype": "OnlineVideo",
+    "arrivaldatetime": "2021-01-08T17:07:20Z",
+    "firstcreated": "2021-01-08T17:07:19Z",
+    "firstcreator": {
+        "year": 2021,
+        "month": 1,
+        "day": 8,
+        "time": "17:07:19"
+    },
+    "lastmodifieddatetime": "2021-01-08T17:07:19Z",
+    "pubstatus": "usable",
+    "editorialid": "5258161",
+    "itemstartdatetime": "2021-01-08T17:07:19Z",
+    "itemstartdatetimeactual": "2021-01-08T17:07:19Z",
+    "itemexpiredatetime": "2021-01-22T17:07:20Z",
+    "function": "BroadcastVideo",
+    "title": "Eng Sub: Soccer Barcelona Messi",
+    "headline": "Eng Sub: 'Messi a winner' - Koeman",
+    "dateline": "8th January 2021 - Barcelona, Spain",
+    "copyrightnotice": "Copyright 2021 The Associated Press. All rights reserved.",
+    "rightsline": "International: See Script",
+    "locationline": "Barcelona, Spain",
+    "provider": {
+        "type": "AP",
+        "name": "AP"
+    },
+    "sources": [
+        {
+            "type": "ThirdParty",
+            "name": "Barca TV"
+        }
+    ],
+    "transmissionsources": [
+        "EapVideo",
+        "NotMemberFeed",
+        "ENPS",
+        "ENPSCAME01",
+        "FoxFeed",
+        "JagRoars"
+    ],
+    "productsources": [
+        "sntv"
+    ],
+    "editorialrole": "VOSOT",
+    "generators": [
+        {
+            "name": "AP Subject",
+            "version": "7095"
+        },
+        {
+            "name": "AP Geography",
+            "version": "7059"
+        },
+        {
+            "name": "AP Organization",
+            "version": "7050"
+        },
+        {
+            "name": "AP Party",
+            "version": "7092"
+        }
+    ],
+    "subjects": [
+        {
+            "code": "20df14707e4e10048910d0913b2d075c",
+            "name": "Professional soccer",
+            "rels": [
+                "direct"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "parentids": [
+                "20dbbcf87e4e100488c9d0913b2d075c"
+            ]
+        },
+        {
+            "code": "039d42210158410db74f393deea38897",
+            "name": "Men's sports",
+            "rels": [
+                "ancestor"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "parentids": [
+                "54df6c687df7100483dedf092526b43e"
+            ]
+        },
+        {
+            "code": "2aef05d9bc434994bf32acac09f9fe0c",
+            "name": "Men's soccer",
+            "rels": [
+                "direct"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "parentids": [
+                "039d42210158410db74f393deea38897",
+                "20dbbcf87e4e100488c9d0913b2d075c"
+            ]
+        },
+        {
+            "code": "54df6c687df7100483dedf092526b43e",
+            "name": "Sports",
+            "rels": [
+                "ancestor"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "topparent": true
+        },
+        {
+            "code": "20dbbcf87e4e100488c9d0913b2d075c",
+            "name": "Soccer",
+            "rels": [
+                "direct"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "parentids": [
+                "54df6c687df7100483dedf092526b43e"
+            ]
+        }
+    ],
+    "persons": [
+        {
+            "code": "b053f0867d6146fab163f5915d71e00f",
+            "name": "Ronald Koeman",
+            "rels": [
+                "direct"
+            ],
+            "types": [
+                "COACH",
+                "SPORTS_FIGURE",
+                "PERSON"
+            ],
+            "teams": [
+                {
+                    "code": "718a0e588c0d10048d18e26cb3bf300e",
+                    "name": "FC Barcelona"
+                }
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram"
+        }
+    ],
+    "organizations": [
+        {
+            "code": "5ddba2688c0d100485aea13d9888b73e",
+            "name": "La Liga",
+            "rels": [
+                "ancestor"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "topparent": true
+        },
+        {
+            "code": "718a0e588c0d10048d18e26cb3bf300e",
+            "name": "FC Barcelona",
+            "rels": [
+                "direct"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "topparent": true
+        }
+    ],
+    "places": [
+        {
+            "code": "661850e07d5b100481f4c076b8e3055c",
+            "name": "Europe",
+            "rels": [
+                "ancestor"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "topparent": true,
+            "locationtype": {
+                "code": "976d112cd5c3497ea180aeecab922c6b",
+                "name": "Continent"
+            },
+            "geometry_geojson": {
+                "type": "Point",
+                "coordinates": [
+                    9.14062,
+                    48.69096
+                ]
+            }
+        },
+        {
+            "code": "6618c9f87d5b10048202c076b8e3055c",
+            "name": "Western Europe",
+            "rels": [
+                "ancestor"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "parentids": [
+                "661850e07d5b100481f4c076b8e3055c"
+            ],
+            "locationtype": {
+                "code": "424cdfcd69d64fa6869055f7ebf10be4",
+                "name": "World region"
+            }
+        },
+        {
+            "code": "662161307d5b100482dfc076b8e3055c",
+            "name": "Spain",
+            "rels": [
+                "direct"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "parentids": [
+                "6618c9f87d5b10048202c076b8e3055c"
+            ],
+            "locationtype": {
+                "code": "01f56e0e654841eca2e69bf2cbcc0526",
+                "name": "Nation"
+            },
+            "geometry_geojson": {
+                "type": "Point",
+                "coordinates": [
+                    -4,
+                    40
+                ]
+            }
+        },
+        {
+            "code": "d6afd1bf15704b34b95c0cf7334d79e3",
+            "name": "Barcelona",
+            "rels": [
+                "direct"
+            ],
+            "scheme": "http://cv.ap.org/id/",
+            "creator": "Teragram",
+            "parentids": [
+                "662161307d5b100482dfc076b8e3055c"
+            ],
+            "locationtype": {
+                "code": "9d26a20b35f0484a891740f8189d4c7b",
+                "name": "City"
+            },
+            "geometry_geojson": {
+                "type": "Point",
+                "coordinates": [
+                    2.15899,
+                    41.38879
+                ]
+            }
+        }
+    ],
+    "audiences": [
+        {
+            "code": "597d753fbdb64b82b7601246c6a73aac",
+            "name": "Sports",
+            "type": "AUDSUBJECT"
+        }
+    ],
+    "services": [
+        {
+            "apservice": "Subtitles"
+        },
+        {
+            "apservice": "sntv"
+        }
+    ],
+    "filings": [
+        {
+            "filingid": "fc4807a6a15446f9aebda8ad4276a573",
+            "filingarrivaldatetime": "2021-01-08T17:07:20Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6164",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                46842,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "4daad5348eac480782cad6bd7604bb26",
+            "filingarrivaldatetime": "2021-01-08T17:10:06Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6180",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                46842,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "94f19458961441418013e8a68d8d6a5b",
+            "filingarrivaldatetime": "2021-01-08T17:10:06Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6180",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                46842,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "538f71fe179344e3b50924f6ad83a7d9",
+            "filingarrivaldatetime": "2021-01-08T17:10:19Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6181",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                46842,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "0a7ea735a7974f5d88e3820a0b0ac734",
+            "filingarrivaldatetime": "2021-01-08T17:11:53Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6191",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                46842,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "5e61045a763b46ac8300f4bf1456dd0c",
+            "filingarrivaldatetime": "2021-01-08T17:12:26Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6194",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                46842,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "93953c96816c4ee198796a6c541a11f8",
+            "filingarrivaldatetime": "2021-01-08T17:12:26Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6194",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                46842,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "46de6f94deae40f4a040be66595cb943",
+            "filingarrivaldatetime": "2021-01-08T17:12:26Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6194",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                46842,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "1c66dd26c9c74abfb17d7870b4aa5584",
+            "filingarrivaldatetime": "2021-01-08T17:13:34Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6201",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                101571,
+                101570,
+                101569,
+                46809,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        },
+        {
+            "filingid": "1c66dd26c9c74abfb17d7870b4aa5584",
+            "filingarrivaldatetime": "2021-01-08T17:13:34Z",
+            "cycle": "AP",
+            "transmissionreference": "vt6201",
+            "transmissioncontent": "All",
+            "serviceleveldesignator": "vt",
+            "selector": "1tves",
+            "format": "bx",
+            "filingsource": "ext",
+            "filingcategory": "t",
+            "routings": {
+                "passcodeadds": [
+                    "1tves"
+                ]
+            },
+            "slugline": "Eng Sub: Soccer Barcelona Messi",
+            "products": [
+                101571,
+                101570,
+                101569,
+                46809,
+                45956,
+                45805,
+                45653,
+                45602,
+                45486,
+                45429,
+                45319,
+                45274,
+                43848,
+                6,
+                1,
+                46842,
+                14
+            ],
+            "foreignkeys": [
+                {
+                    "storyid": "5258161"
+                },
+                {
+                    "mospayloadstorynumber": "5258161"
+                },
+                {
+                    "mospayloadlanguagetype": "Nat sound"
+                },
+                {
+                    "mospayloadmosobjslugs": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "mospayloadmositemdurations": "27.48"
+                },
+                {
+                    "mospayloadstoryformat": "Subtitles"
+                },
+                {
+                    "mospayloadsocialcleared": "1"
+                },
+                {
+                    "mospayloaddigitalcleared": "1"
+                },
+                {
+                    "mospayloadapprovidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2service": "apservicecode:Subtitles"
+                },
+                {
+                    "videohubg2service": "apservicecode:sntv"
+                },
+                {
+                    "videohubg2approvidermetadata": "SOC ES KOEMESS SUB 20210108SN"
+                },
+                {
+                    "videohubg2newsitemguid": "5258161-text"
+                }
+            ]
+        }
+    ],
+    "script": {
+        "nitf": "<p /><p>RESTRICTIONS: Use on broadcast and digital channels, including social. Available worldwide. Use within 14 days. All usage subject to rights licensed in contract. For any questions regarding rights restrictions please contact planning@sntv.com.</p><p>SHOTLIST: Barcelona, Spain. 8th January 2020. </p><p>1.00:00 SOUNDBITE (Spanish): Ronald Koeman, FC Barcelona coach:</p><p>(If he thinks Messi is finally happy with the team)</p><p>\"Messi is a winner. He loves to play and to train. He is like me who gets upset if I am not winning. I am not happy if I lose football games. I think he speaks up when he is not happy. I think is normal among winners. \"</p><p>SOURCE: Barca TV</p><p>DURATION: 02:18 </p><p>STORYLINE:</p><p>Barca boss Ronald Koeman spoke about Leo Messi's winning attitude at a news conference on Friday. </p><p>Koeman said, \"I think he speaks up when he is not happy. I think is normal among winners.\"</p>",
+        "words": 142
+    },
+    "caption": {
+        "nitf": "<p>Eng Sub: 'Messi a winner' - Koeman</p>",
+        "words": 6
+    },
+    "renditions": [
+        {
+            "title": "Full Resolution (MPG 720x576)",
+            "rel": "Main",
+            "type": "video",
+            "arrivedinfilingid": "4daad5348eac480782cad6bd7604bb26",
+            "binarypath": "None",
+            "href": "http://videohub-bus.s3.amazonaws.com/VideoHubQA/highRes/5258161_PALESSENCE.mpg",
+            "code": "c3c2edeb3e4a4bc4a6ea00fa1f55ac8c",
+            "fileextension": "mpg",
+            "format": "MPEG",
+            "mimetype": "video/mpeg",
+            "originalfilename": "http://videohub-bus.s3.amazonaws.com/VideoHubQA/highRes/5258161_PALESSENCE.mpg",
+            "sizeinbytes": 24197120,
+            "averagebitrate": "6144.000000",
+            "totalduration": 27480,
+            "width": 720,
+            "height": 576,
+            "videocoder": "MPEG",
+            "framerate": 25,
+            "aspectratio": "16:9",
+            "samplerate": "25.000000"
+        },
+        {
+            "title": "Full Resolution (MP4 1920x1080)",
+            "rel": "Main",
+            "type": "video",
+            "arrivedinfilingid": "94f19458961441418013e8a68d8d6a5b",
+            "binarypath": "None",
+            "href": "http://videohub-bus.s3.amazonaws.com/VideoHubQA/highRes/5258161_1080i50ESSENCE.mp4",
+            "code": "bbea069cfef54f31a28aebd63dd0a335",
+            "fileextension": "mp4",
+            "format": "MPEG",
+            "mimetype": "video/mp4",
+            "originalfilename": "http://videohub-bus.s3.amazonaws.com/VideoHubQA/highRes/5258161_1080i50ESSENCE.mp4",
+            "sizeinbytes": 35656358,
+            "averagebitrate": "10000.000000",
+            "totalduration": 27480,
+            "width": 1920,
+            "height": 1080,
+            "videocoder": "Microsoft MPEG-4",
+            "framerate": 25,
+            "aspectratio": "16:9",
+            "samplerate": "25.000000"
+        },
+        {
+            "title": "Full Resolution (MPG 720x480)",
+            "rel": "Main",
+            "type": "video",
+            "arrivedinfilingid": "538f71fe179344e3b50924f6ad83a7d9",
+            "binarypath": "None",
+            "href": "http://videohub-bus.s3.amazonaws.com/VideoHubQA/highRes/5258161_NTSCESSENCE.mpg",
+            "code": "ca21d9cf35154ea3a6b48179ef7d91fe",
+            "fileextension": "mpg",
+            "format": "MPEG",
+            "mimetype": "video/mpeg",
+            "originalfilename": "http://videohub-bus.s3.amazonaws.com/VideoHubQA/highRes/5258161_NTSCESSENCE.mpg",
+            "sizeinbytes": 24186880,
+            "averagebitrate": "6144.000000",
+            "totalduration": 27480,
+            "width": 720,
+            "height": 480,
+            "videocoder": "MPEG",
+            "framerate": 29.97,
+            "aspectratio": "16:9",
+            "samplerate": "29.970000"
+        },
+        {
+            "title": "Full Resolution (MP4 1920x1080)",
+            "rel": "Main",
+            "type": "video",
+            "arrivedinfilingid": "0a7ea735a7974f5d88e3820a0b0ac734",
+            "binarypath": "None",
+            "href": "http://videohub-bus.s3.amazonaws.com/VideoHubQA/highRes/5258161_1080i60ESSENCE.mp4",
+            "code": "3e4d7bd2c3154ea08760c98ed41ba768",
+            "fileextension": "mp4",
+            "format": "MPEG",
+            "mimetype": "video/mp4",
+            "originalfilename": "http://videohub-bus.s3.amazonaws.com/VideoHubQA/highRes/5258161_1080i60ESSENCE.mp4",
+            "sizeinbytes": 35513287,
+            "averagebitrate": "10000.000000",
+            "totalduration": 27480,
+            "width": 1920,
+            "height": 1080,
+            "videocoder": "Microsoft MPEG-4",
+            "framerate": 29.97,
+            "aspectratio": "16:9",
+            "samplerate": "29.970000"
+        },
+        {
+            "title": "Preview (MP4)",
+            "rel": "Preview",
+            "type": "video",
+            "arrivedinfilingid": "5e61045a763b46ac8300f4bf1456dd0c",
+            "binarypath": "None",
+            "href": "http://qa-apvideo-proxies.s3.amazonaws.com/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e_360p.mp4",
+            "code": "a8d2502fe559428e972ac202dfd60d11",
+            "fileextension": "mp4",
+            "format": "MPEG",
+            "mimetype": "video/mp4",
+            "originalfilename": "http://qa-apvideo-proxies.s3.amazonaws.com/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e_360p.mp4",
+            "averagebitrate": "1500.000000",
+            "totalduration": 27000,
+            "width": 720,
+            "height": 480,
+            "videocoder": "Microsoft MPEG-4",
+            "framerate": 25,
+            "aspectratio": "16:9",
+            "samplerate": "25.000000"
+        },
+        {
+            "title": "Thumbnail (JPG 480x270)",
+            "rel": "Thumbnail",
+            "type": "photo",
+            "arrivedinfilingid": "93953c96816c4ee198796a6c541a11f8",
+            "binarypath": "None",
+            "href": "http://qa-apvideo-proxies.s3.amazonaws.com/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e_JPEG_480x270-00002.jpg",
+            "code": "48287a5ac67042468feddadb03ed72b9",
+            "fileextension": "jpg",
+            "format": "JPEG Baseline",
+            "mimetype": "image/jpeg",
+            "originalfilename": "http://qa-apvideo-proxies.s3.amazonaws.com/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e_JPEG_480x270-00002.jpg",
+            "width": 480,
+            "height": 270
+        },
+        {
+            "title": "Thumbnail (JPG 192x108)",
+            "rel": "Thumbnail",
+            "type": "photo",
+            "arrivedinfilingid": "46de6f94deae40f4a040be66595cb943",
+            "binarypath": "None",
+            "href": "http://qa-apvideo-proxies.s3.amazonaws.com/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e_JPEG_192x108-00002.jpg",
+            "code": "56e6b646062949b396924471f62ee60c",
+            "fileextension": "jpg",
+            "format": "JPEG Baseline",
+            "mimetype": "image/jpeg",
+            "originalfilename": "http://qa-apvideo-proxies.s3.amazonaws.com/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e/5258161_1_bf33920a9fb2d8d8fb236daaf747d42e_JPEG_192x108-00002.jpg",
+            "width": 192,
+            "height": 108
+        }
+    ],
+    "referenceid": "5258161",
+    "s3versionid": "QV587HzGWjZT.WDq_cjG8Mw2XO39n_LF",
+    "traceid": "null",
+    "itemarrivaldatetime": "2021-01-08T17:07:20Z"
+}

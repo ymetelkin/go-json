@@ -1,0 +1,147 @@
+{
+    "took": 0,
+    "timed_out": false,
+    "failures": [],
+    "vertices": [
+      {
+        "field": "organizations.name.raw",
+        "term": "Ligue 1",
+        "weight": 0.0055169818913398,
+        "depth": 1
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "Atletico Madrid",
+        "weight": 0.01548209538250293,
+        "depth": 1
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "FC Dynamo Kiev",
+        "weight": 0.01666298789051267,
+        "depth": 1
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "Real Madrid",
+        "weight": 0.010078386816930598,
+        "depth": 1
+      },
+      {
+        "field": "persons.name.raw",
+        "term": "Lionel Messi",
+        "weight": 0.44633518481772044,
+        "depth": 0
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "La Liga",
+        "weight": 0.0573061263696807,
+        "depth": 1
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "Argentina National Soccer Team",
+        "weight": 0.008520371393709323,
+        "depth": 1
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "Bayern Munich",
+        "weight": 0.004010764864424548,
+        "depth": 1
+      },
+      {
+        "field": "persons.name.raw",
+        "term": "Lionel Messi ",
+        "weight": 0.5536648151822796,
+        "depth": 0
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "Bundesliga",
+        "weight": 0.004074956762070861,
+        "depth": 1
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "FC Barcelona",
+        "weight": 0.37067261503054216,
+        "depth": 1
+      },
+      {
+        "field": "organizations.name.raw",
+        "term": "Serie A",
+        "weight": 0.004010764864424548,
+        "depth": 1
+      }
+    ],
+    "connections": [
+      {
+        "source": 4,
+        "target": 5,
+        "weight": 0.0573061263696807,
+        "doc_count": 45
+      },
+      {
+        "source": 4,
+        "target": 7,
+        "weight": 0.004010764864424548,
+        "doc_count": 3
+      },
+      {
+        "source": 4,
+        "target": 10,
+        "weight": 0.11274085483453986,
+        "doc_count": 75
+      },
+      {
+        "source": 4,
+        "target": 6,
+        "weight": 0.008520371393709323,
+        "doc_count": 7
+      },
+      {
+        "source": 8,
+        "target": 10,
+        "weight": 0.2579317601960023,
+        "doc_count": 5
+      },
+      {
+        "source": 4,
+        "target": 2,
+        "weight": 0.01666298789051267,
+        "doc_count": 3
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "weight": 0.01548209538250293,
+        "doc_count": 5
+      },
+      {
+        "source": 4,
+        "target": 3,
+        "weight": 0.010078386816930598,
+        "doc_count": 7
+      },
+      {
+        "source": 4,
+        "target": 0,
+        "weight": 0.0055169818913398,
+        "doc_count": 3
+      },
+      {
+        "source": 4,
+        "target": 11,
+        "weight": 0.004010764864424548,
+        "doc_count": 3
+      },
+      {
+        "source": 4,
+        "target": 9,
+        "weight": 0.004074956762070861,
+        "doc_count": 3
+      }
+    ]
+  }
